@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/menu.css">
+</head>
+<body>
+    <!--Menu de la pagina-->
+    <nav>
+        <ul class="menu">
+            <li class="logo">
+                <a href="#">
+                    <img src="./imagenes/LOGO.JPG">
+                </a>
+            </li>
+
+            <li>
+                <a href="./index.html"> Inicio </a>
+            </li>
+
+            <li>
+                <a href="./contactenos.html"> Contactenos </a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1> MACC MUEBLES CONTACTENOS </h1>
+        <h2> FORMULARIO DE CONTACTO </h2>
+        <div>
+            <form>
+                <section class="section-flex">
+                    <article class="element-form">
+                        <div class="label">
+                            <label for>Tipo de mensaje</label>
+                        </div>
+                        <select name="tipomensaje" id="tipomensaje">
+                            <option value="*">"Seleccione Una Opción"</option>
+                            <option value="A">"Cotización"</option>
+                            <option value="B">"Sugerencias"</option>
+                            <option value="C">"Garantia"</option>
+                            <option value="D">"Otro Motivo"</option>
+                        </select>
+                    </article>
+
+                    <article class="element-form">
+                        <div class="label">
+                            <label for>Nombres :</label>
+                        </div>
+                        <input type="text" name="nombres" id="nombres" placeholder="Nombre y Apellido">
+                    </article>
+
+                    <article class="element-form">
+                        <div class="label">
+                            <label for>Email :</label>
+                        </div>
+                        <input type="text" name="email" id="email" placeholder="Correo Electronico">
+                    </article>
+
+                    <article class="element-form">
+                        <div class="label">
+                            <label for>Telefono :</label>
+                        </div>
+                        <input type="tel" name="telefono" id="telefono" placeholder="Numero Contacto">
+                    </article>
+
+                    <article class="element-form">
+                        <div class="label">
+                            <label for>Comentario :</label>
+                        </div>
+                        <textarea name="comentario" id="comentario" cols="100" rows="10" placeholder="Escribe alguna descripcion de lo que requieres"></textarea>
+                    </article>
+
+                    <article class="btn-article">
+                        <button type="submit" onclick="validar()"> Enviar Datos </button>
+                    </article>
+                </section>
+            </form>
+        </div>
+    <div>
+
+    <footer>
+        <p> <h3> <b> Creado por Manuel Cubillos </b> </h3> </p>
+    </footer>
+
+    <script src="./js/javascript.js"></script>
+
+</body>
+</html>
